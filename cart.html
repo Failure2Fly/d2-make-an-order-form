@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <header>
+        <title>Movie Purchase</title>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <link rel="stylesheet" href="css/global.css" />
+                <nav>
+                        <ul>
+    <a href="index.html"><strong><div>Home</div></strong></a>
+    <a href="shop.html"><div>Shop</div></a>
+    <a href="contact.html"><div>Contact Us</div></a>
+    <a href="cart.html"><fmt:message key='cart'/> 
+<img style="width: 50px; height: 50px;" alt="cart" src="img/cart.jpeg" align="top" vspace="8"> (${cart.numberOfItems})</a>
+                         </ul>
+                </nav>
+    </header>
+    <body>
+        <section>
+            <form>
+                    <label for="firstName">First Name</label><br/>
+                    <input style="width: 250px;" type="text" id="firsttName" name="first_name" placeholder="Example: John" required/><br/>
+
+                    <label for="lastName">Last Name</label><br/>
+                    <input style="width: 250px;" type="text" id="lastName" name="last_name" placeholder="Example: Smith" required/><br/>
+
+                    <label for="address">Mailing Address</label><br/>
+                    <input style="width: 250px;" type="text" id="address" name="address" placeholder="Example: 123 Fake St." required/><br/>
+
+                    <label for="city">City</label><br/>
+                    <input style="width: 250px;" type="text" id="city" name="city" placeholder="Example: New York City" required/><br/>
+
+                    <label for="State">State</label><br/>
+                    <input style="width: 250px;" type="text" id="state" name="state" placeholder="Example: New York" required/><br/>
+
+                    <label for="zipcode">Zipcode</label><br/>
+                    <input style="width: 250px;" type="text" id="zipcode" name="zipcode" placeholder="Example: 12345" required/><br/>
+
+                    <form action="demo_form.asp">
+                    <input type="submit">
+                </form>
+            </form>
+                    <br/><br/><img width="350" height="500" " src="/img/donnie_darko.jpg" />
+                    
+        </section>
+        <section>
+                <label for="firstName">First Name</label><br/>
+                <input type="text" id="firsttName" name="first_name" placeholder="Example: Matt"/>
+        </section>
+    </body>
+    
+</html>

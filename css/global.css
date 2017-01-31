@@ -1,0 +1,28 @@
+html {
+    background-color: darkred;
+} 
+
+nav {
+    background-color: black;
+    font-size: 14px;
+    font-family: georgia;
+    text-align: center;
+}
+div {
+    width: 119px;
+    border: solid 1px;
+    float: left;
+    padding: 10px 0;
+    color: white;
+}
+button{ 
+    padding: 20px;
+    margin: 5px 110px 5px 130px;
+}
+a {
+    margin: 10px 40px 10px 40px;
+}
+section nth child{
+margin: 100px;
+}
+

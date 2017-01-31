@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Get Your Favorite Movies Here</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/global.css" />
+</head>
+    <body>
+    
+    <form method="post" action="https://thinksaydo.com/submit.php"></form>
+
+    <label for="firstName">First Name</label><br/>
+    <input type="text" id="firsttName" name="first_name" placeholder="Example: Matt"/>
+<hr/>
+    <label for="greenShirt">Green Shirt</label>
+    <input type="radio" id="greenShirt" name="options" value="Green Shirt" />
+
+    <label for="blueShirt">
+        Blue Shirt
+        <input='radio' id="blueShirt" name="options"
+        value="Blue Shirt" />
+    </label>
+
+<hr/>
+    <label id="state">Country</label><br/>
+    <select id="country" name="country">
+        <option vaule="CA">Canada</option>
+        <option value="MX">Mexico</option>
+        <option value="US">Unitied States</option>
+    </select>
+<hr/>
+<input type="checkbox" id"wantsNewsletter" name="wants-newsletter" value="yes"/>
+<label for="wantsNesletter">Sign up for Newsletter</label><br/><br/>
+
+<hr/>
+
+<textarea name="comment" rows="25" cols="80"></textarea>
+ 
+ <hr/>
+
+ <button></button>
+
+    </body>
+</html> 
