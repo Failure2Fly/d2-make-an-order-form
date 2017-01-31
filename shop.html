@@ -11,7 +11,7 @@
     <a href="shop.html"><div>Shop</div></a>
     <a href="contact.html"><div>Contact Us</div></a>
     <a href="cart.html"><fmt:message key='cart'/> 
-<img style="width: 50px; height: 50px;" alt="cart" src="img/cart.jpeg" align="top" vspace="8"> (${cart.numberOfItems})</a><br/><br/>
+<img style="width: 50px; height: 50px;" alt="cart" src="img/cart.jpeg" align="top" vspace="8"> <a (${cart.numberOfItems})></a><br/><br/>
                          </ul>
                 </nav>
     </header>
@@ -22,19 +22,55 @@
                 <img width="350" height="500" src="/img/Eternal_sunshine.jpg" />
                 <img width="350" height="500" src="/img/Groundhog_Day.jpg" />
                 <img width="350" height="500" src="/img/jack.jpg" />
-                <hr/>
+                </hr>
+                <div class="column">
+                    <label id="version">Version</label><br/>
+                    <select id="version" name="version">
+                    <option vaule="widescreen">Widescreen</option>
+                    <option value="fullscreen">Fullscreen</option>
+                    <option value="bluRay">Blue-ray</option>
+                    </select>
                     <button type="submit" name="add" id="AddToCart" class="btn">
                      <span id="AddToCartText">Add To Cart</span>
                     </button>
+                </div>
+
+                <div class="column">
+                    <label id="version">Version</label><br/>
+                    <select id="version" name="version">
+                    <option vaule="widescreen">Widescreen</option>
+                    <option value="fullscreen">Fullscreen</option>
+                    <option value="bluRay">Blue-ray</option>
+                    </select>
                     <button type="submit" name="add" id="AddToCart" class="btn">
                     <span id="AddToCartText">Add To Cart</span>
                     </button>
+                </div>
+
+                <div class="column">
+                    <label id="version">Version</label><br/>
+                    <select id="version" name="version">
+                    <option vaule="widescreen">Widescreen</option>
+                    <option value="fullscreen">Fullscreen</option>
+                    <option value="bluRay">Blue-ray</option>
+                    </select>
                     <button type="submit" name="add" id="AddToCart" class="btn">
                     <span id="AddToCartText">Add To Cart</span>
                     </button>
+                </div>
+
+                <div class="column">
+                    <label id="version">Version</label><br/>
+                    <select id="version" name="version">
+                    <option vaule="widescreen">Widescreen</option>
+                    <option value="fullscreen">Fullscreen</option>
+                    <option value="bluRay">Blue-ray</option>
+                    </select>
                     <button type="submit" name="add" id="AddToCart" class="btn">
                     <span id="AddToCartText">Add To Cart</span>
                     </button>
+                </div>
+
                 <hr/>
                 <img width="350" height="500" src="/img/Little_miss_sunshine.jpg" />
                 <img width="350" height="500" src="/img/Mallrats.jpg" />

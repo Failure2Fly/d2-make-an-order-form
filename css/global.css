@@ -8,7 +8,7 @@ nav {
     font-family: georgia;
     text-align: center;
 }
-div {
+ul div {
     width: 119px;
     border: solid 1px;
     float: left;
@@ -17,12 +17,20 @@ div {
 }
 button{ 
     padding: 20px;
-    margin: 5px 110px 5px 130px;
+    margin: 5px 50px 5px 50px;
+    align: center;
+}
+label {
+    margin: 5px 50px 5px 50px;
 }
 a {
     margin: 10px 40px 10px 40px;
 }
-section nth child{
-margin: 100px;
-}
 
+
+.column {
+    width: 25%;
+    display: inline-block;
+    float: left;
+    text-align: left;
+}
