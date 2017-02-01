@@ -1,7 +1,6 @@
 html {
     background-color: darkred;
 } 
-
 nav {
     background-color: black;
     font-size: 14px;
@@ -26,11 +25,10 @@ label {
 a {
     margin: 10px 40px 10px 40px;
 }
-
-
 .column {
     width: 25%;
-    display: inline-block;
+    display: inline-block; 
     float: left;
     text-align: left;
 }
+
